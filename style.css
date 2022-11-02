@@ -236,6 +236,11 @@ Para definir a porcentagem do degradê colocar na frente da cor:
   font-weight: bold;
 }
 
+/*Ao colocarmos algo no CSS dessa forma, não será parte do texto selecionável, será apenas um elemento visual*/
+.itens:before {
+  content: "✦";
+}
+
 .imagem-beneficios {
   width: 60%;
 }
