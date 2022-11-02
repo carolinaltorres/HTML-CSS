@@ -249,3 +249,17 @@ Para definir a porcentagem do degradê colocar na frente da cor:
   width: 560px;
   margin: 2em auto;
 }
+
+/*
+Seleciona o filho direto:
+main > p {}
+
+Seleciona o irmão que vem depois de um elemento: 
+img + p {}
+
+Seleciona todo o irmãos que vem depois do elemento:
+img ~ p {}
+
+Excluir itens específicos:
+.principal p:not(#missao) {}
+*/
