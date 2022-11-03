@@ -243,6 +243,12 @@ Para definir a porcentagem do degradê colocar na frente da cor:
 
 .imagem-beneficios {
   width: 60%;
+  opacity: 1;
+  transition: 400ms;
+}
+
+.imagem-beneficios:hover {
+  opacity: 0.3;
 }
 
 .video { 
@@ -262,4 +268,9 @@ img ~ p {}
 
 Excluir itens específicos:
 .principal p:not(#missao) {}
+*/
+
+/*
+Para utilizarmos a opacidade em qualquer elemento, precisa ser rgb: 
+color: rgba(0, 0, 0, 0.3);
 */
