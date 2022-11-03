@@ -245,6 +245,7 @@ Para definir a porcentagem do degradê colocar na frente da cor:
   width: 60%;
   opacity: 1;
   transition: 400ms;
+  box-shadow: 10px 10px 10px #000000;
 }
 
 .imagem-beneficios:hover {
